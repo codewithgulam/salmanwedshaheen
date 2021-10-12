@@ -75,6 +75,10 @@
         .p3 {
             font-size: 50px;
         }
+        
+        .google_map {
+            height: auto;
+        }
     </style>
 </head>
 
@@ -118,7 +122,7 @@
     </nav>
 
     <div style="margin-top: 6em;" class="container justify-content-center">
-        <img class="swirvey a9 rounded header-img" src="https://weddie.netlify.app/img/template_couple_islam.png" alt="Photo upload error. Email to getweddie@gmail.com" />
+        <img class="swirvey a9 rounded header-img" src="https://weddie.netlify.app/img/template_couple_islam.png" alt="Check your internet connection" />
     </div>
 
     <div class="row justify-content-center mt-5 ml-3 mr-3">
@@ -225,7 +229,7 @@
                         </div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h3 class="timeline-title">First We Met</h3>
+                                <h3 class="timeline-title">First Intraction</h3>
                                 <span class="date font-weight-bold grey-700">Thu, 27 Sep, 2019</span>
                             </div>
                             <div class="timeline-body">
@@ -340,74 +344,8 @@
 
 
 
-    <hr class="style_section d-flex fluid m-5">
-
-    <div id="section_gallery" class="row justify-content-center mt-5 ml-3 mr-3">
-        <h1 class="couples-title text-center h1-responsive">Photo Gallery</h1>
-    </div>
-
-    <div class="row justify-content-center mt-5 ml-3 mr-3">
-        <h3 class="header-invitation-text text-center h3-responsive">
-            From this day forward, you shall not walk alone. My heart will be your Shelter, And my arms will be your Home...
-        </h3>
-    </div>
-
-    <style>
-        .snip1580 img {
-            width: 100%;
-        }
-    </style>
-
-    <div class="row justify-content-center mt-5 mb-5 ml-3 mr-3">
 
 
-        <figure class="snip1580"><img src="https://weddie.netlify.app/img/gallery_groom_template_fireworks.png" alt="gallery" />
-            <figcaption>
-                <h3>Salman Khan</h3>
-                <p>
-
-                    <span>B.E.</span>
-                    <br>
-
-
-
-                    <span>S/O Sathya &amp; Krishnan</span>
-
-                </p>
-            </figcaption>
-        </figure>
-
-
-
-        <figure class="snip1580"><img src="https://weddie.netlify.app/img/gallery_bride_template_fireworks.png" alt="gallery" />
-            <figcaption>
-                <h3>Shaheen Parveen</h3>
-                <p>
-
-                    <span>B.Tech</span>
-                    <br>
-
-
-
-                    <span>D/O Mala &amp; Kumar</span>
-
-                </p>
-            </figcaption>
-        </figure>
-
-
-        <figure class="snip1580"><img src="https://weddie.netlify.app/img/gallery_bride_groom_template_fireworks.png" alt="gallery" />
-            <figcaption>
-                <h3>Salman &amp; Parveen
-                </h3>
-                <p>
-                    <span>Beautiful Wedding coming soon...</span>
-                    <br>
-                    <span>&nbsp;</span>
-                </p>
-            </figcaption>
-        </figure>
-    </div>
 
 
 
@@ -416,7 +354,7 @@
         <h1 class="couples-title text-center h1-responsive">Invitation Video</h1>
     </div>
     <div class="container embed-responsive embed-responsive-16by9 justify-content-center text-center">
-        <iframe class="embed-responsive-item justify-content-center text-center video" src="" allowfullscreen></iframe>
+        <iframe class="embed-responsive-item justify-content-center text-center video" src="https://www.youtube.com/embed/kvRQEMmryyA" allowfullscreen></iframe>
     </div>
 
 
@@ -428,168 +366,25 @@
     </div>
 
     <div class="google_map p-2" id="google_map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14325.059759724872!2d81.80630528123343!3d26.155499685350946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399af5a4702faacb%3A0x9314a14ecb88a438!2sAmethi%2C%20Uttar%20Pradesh%20227405!5e0!3m2!1sen!2sin!4v1634028665758!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
 
     <footer class="page-footer falling-hearts-pink font-small">
-        <div class="footer-copyright text-white text-center py-3">© 2021 Copyright:
-            <a href="/" target="_blank"> www.getweddie.com</a> &nbsp; | &nbsp;
-            <a href="https://play.google.com/store/apps/details?id=com.getweddie.app" target="_blank">
-                <i class="fa fa-android" aria-hidden="true"></i>
-            </a> &nbsp; &nbsp;
-            <a href="https://www.facebook.com/getweddie/" target="_blank">
-                <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            </a>
+        <div class="footer-copyright text-white text-center py-3">SHADI MEIN JAROOR AANA...
+
         </div>
     </footer>
 
 
     <!-- Google maps script -->
-    <script>
-        function initMap() {
-            var uluru = {
-                lat: Number('13.0067478'),
-                lng: Number('77.5766677')
-            };
-            var map = new google.maps.Map(document.getElementById('google_map'), {
-                zoom: 18,
-                center: uluru,
-                mapTypeControl: false,
-                zoomControl: false,
-                streetViewControl: false,
-                styles: [{
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#242f3e"
-                    }]
-                }, {
-                    "elementType": "labels.text.fill",
-                    "stylers": [{
-                        "color": "#746855"
-                    }]
-                }, {
-                    "elementType": "labels.text.stroke",
-                    "stylers": [{
-                        "color": "#242f3e"
-                    }]
-                }, {
-                    "featureType": "administrative.locality",
-                    "elementType": "labels.text.fill",
-                    "stylers": [{
-                        "color": "#d59563"
-                    }]
-                }, {
-                    "featureType": "poi",
-                    "elementType": "labels.text.fill",
-                    "stylers": [{
-                        "color": "#d59563"
-                    }]
-                }, {
-                    "featureType": "poi.park",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#263c3f"
-                    }]
-                }, {
-                    "featureType": "poi.park",
-                    "elementType": "labels.text.fill",
-                    "stylers": [{
-                        "color": "#6b9a76"
-                    }]
-                }, {
-                    "featureType": "road",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#38414e"
-                    }]
-                }, {
-                    "featureType": "road",
-                    "elementType": "geometry.stroke",
-                    "stylers": [{
-                        "color": "#212a37"
-                    }]
-                }, {
-                    "featureType": "road",
-                    "elementType": "labels.text.fill",
-                    "stylers": [{
-                        "color": "#9ca5b3"
-                    }]
-                }, {
-                    "featureType": "road.highway",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#746855"
-                    }]
-                }, {
-                    "featureType": "road.highway",
-                    "elementType": "geometry.stroke",
-                    "stylers": [{
-                        "color": "#1f2835"
-                    }]
-                }, {
-                    "featureType": "road.highway",
-                    "elementType": "labels.text.fill",
-                    "stylers": [{
-                        "color": "#f3d19c"
-                    }]
-                }, {
-                    "featureType": "transit",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#2f3948"
-                    }]
-                }, {
-                    "featureType": "transit.station",
-                    "elementType": "labels.text.fill",
-                    "stylers": [{
-                        "color": "#d59563"
-                    }]
-                }, {
-                    "featureType": "water",
-                    "elementType": "geometry",
-                    "stylers": [{
-                        "color": "#17263c"
-                    }]
-                }, {
-                    "featureType": "water",
-                    "elementType": "labels.text.fill",
-                    "stylers": [{
-                        "color": "#515c6d"
-                    }]
-                }, {
-                    "featureType": "water",
-                    "elementType": "labels.text.stroke",
-                    "stylers": [{
-                        "color": "#17263c"
-                    }]
-                }]
-            });
 
-            var marker = new google.maps.Marker({
-                icon: 'https://weddie.netlify.app/img/marker-dot.png',
-                position: uluru,
-                map: map
-            });
-
-            google.maps.event.addListener(marker, 'click', function() {
-                var win = window.open(marker.map.mapUrl, '_blank');
-                win.focus();
-            });
-
-        }
-    </script>
 
 
     <!-- Common Footer Start -->
 
 
-    <!-- 
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeliJYHvYOeYDInvhRpXa7r08MSPVH8hk&callback=initMap"> </script>
-   -->
-
-
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1y4Cv5Sj-EWAhFaWzTsQ2_cAjU2-fF1w&callback=initMap">
-    </script>
 
 
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
